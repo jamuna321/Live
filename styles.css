@@ -1,6 +1,6 @@
 body {
     font-family:'Arial',sans-serif;
-    margin:20px 10px;
+    margin:20px 0;
     background-color:#f9f9f9;
 }
 h2 {
@@ -8,9 +8,11 @@ h2 {
     color:#333;
 }
 .channel-list {
+    padding: 0 10px;
     display:flex;
     flex-wrap:wrap;
-    border:1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     overflow:hidden;
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
@@ -32,9 +34,10 @@ h2 {
 .data {
     flex-wrap:wrap;
     display:flex;
-    padding:10px 0;
-    border:1px solid #ccc;
-    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    padding:16px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     flex-grow:1;
 }
 .data h3 {
